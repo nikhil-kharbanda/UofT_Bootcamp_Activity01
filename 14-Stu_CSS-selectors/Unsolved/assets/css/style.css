@@ -1,0 +1,38 @@
+/* Universal Selector */
+/* Everything on html page wo;; have a defined family
+  Font family read from left to right, if font can not be found, moves on to the next*/
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/* Element Selectors select all of that element type */
+/* Everything wrapped in body tag will have background color defined*/
+body {
+  background-color: lemonchiffon;
+}
+
+/* Everything wrapped in header and footer would appear in a darkblue background, 100% of height and width, font color of cream white*/
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+
+/* Everything wrapped in figure has width of 200pm and a background color of cream white*/
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* Class Selectors select all elements with that class */
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* Id Selectors are unique a unique id to identify an element */
+#contact-section {
+  background-color: #f0ead6;
+}
